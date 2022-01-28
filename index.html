@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <!-- <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    /> -->
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive plants website - Bedimcode</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="ri-leaf-line nav__logo-icon"></i> Reem Ziedani
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="Js_project.html" class="nav__link">Js_project</a>
+            </li>
+            <li class="nav__item">
+              <a href="php_project.html" class="nav__link">PHP_project</a>
+            </li>
+            <li class="nav__item">
+              <a href="Wordpress.html" class="nav__link">Wordpress_project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/reem.jpg" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">ICT: web developer <br /></h1>
+            <p class="home__description">
+              My name is Reem Ziedani and I am 26 years old. I have been living
+              in the Netherlands for five years. I currently live in Utrecht
+              with my friend. At the moment, I am doing the web developer course
+              and I am now in my second year.
+            </p>
+          </div>
+
+          <div class="home__social">
+            <span class="home__social-follow">Follow Us</span>
+
+            <div class="home__social-links">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== projectS ====================-->
+      <section class="project section container" id="projects">
+        <h2 class="section__title-center">
+          Check out our <br />
+          projects
+        </h2>
+
+        <p class="project__description">
+          Many of projects that I made in the first and second year
+          PHP,wordpress,projects with bootstrap, Js in addtion react
+        </p>
+
+        <div class="project__container grid">
+          <article class="project__card">
+            <div class="project__circle"></div>
+
+            <a href="Js_project.html"
+              ><img
+                src="assets/img/Javascript_Logo.png"
+                alt=""
+                class="project__img"
+            /></a>
+
+            <h3 class="project__title">
+              JS-> click on the picture to view more project
+            </h3>
+
+            <button class="button--flex project__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="project__card">
+            <a href="Wordpress.html"
+              ><img src="assets/img/wordpress.jpg" alt="" class="project__img"
+            /></a>
+
+            <h3 class="project__title">wordpress project</h3>
+
+            <button class="button--flex project__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="project__card">
+            <a href="php_project.html"
+              ><img src="assets/img/php2.jpg" alt="" class="project__img"
+            /></a>
+
+            <h3 class="project__title">
+              PHP-> click on the picture to view more project
+            </h3>
+
+            <button class="button--flex project__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+
+      <section class="contact section container" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__box">
+            <h2 class="section__title2">
+              Reach out to us today <br />
+              via any of the given <br />
+              information
+            </h2>
+
+            <div class="contact__data">
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Call us for instant support</h3>
+                <span class="contact__description">
+                  <i class="ri-phone-line contact__icon"></i>
+                  0633388915
+                </span>
+              </div>
+
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Write us by mail</h3>
+                <span class="contact__description">
+                  <i class="ri-mail-line contact__icon"></i>
+                  Ziedanireem@email.com
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <input type="email" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Email</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="text" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__content contact__area">
+                <textarea
+                  name="message"
+                  placeholder=" "
+                  class="contact__input"
+                ></textarea>
+                <label for="" class="contact__label">Message</label>
+              </div>
+            </div>
+
+            <button class="button button--flex">
+              Send Message
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <i class="ri-leaf-line footer__logo-icon"></i> Reem Ziedani
+          </a>
+
+          <h3 class="footer__title">Software developer</h3>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Address</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information">1234 - Utrecht</li>
+            <li class="footer__information">23455</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contact Us</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information">0633388915</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">follow US</h3>
+
+          <div class="footer__social">
+            <a href="https://www.facebook.com/" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/" class="footer__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Reem ziedani</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
